@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaFacebook } from "react-icons/fa";
+import { FaBars, } from "react-icons/fa";
 import {
   BsChatSquareDots,
   BsInstagram,
@@ -18,7 +18,7 @@ const Navbar = () => {
         <li>
           <a
             className="text-white hover:underline transition-all duration-[0.4s]"
-            href=""
+            href="/"
           >
             Home
           </a>
@@ -26,7 +26,7 @@ const Navbar = () => {
         <li>
           <a
             className="text-white hover:underline transition-all duration-[0.4s]"
-            href=""
+            href="#gallery"
           >
             Gallery
           </a>
@@ -34,7 +34,7 @@ const Navbar = () => {
         <li>
           <a
             className="text-white hover:underline transition-all duration-[0.4s]"
-            href=""
+            href="#deals"
           >
             Deals
           </a>
@@ -42,14 +42,14 @@ const Navbar = () => {
         <li>
           <a
             className="text-white hover:underline transition-all duration-[0.4s]"
-            href=""
+            href="#contact"
           >
             Contact
           </a>
         </li>
       </ul>
       <div className=" flex justify-between ">
-        <FaFacebook className="mx-4" />
+        <BsFacebook className="mx-4" />
         <BsTwitter className="mx-4" />
         <BsGoogle className="mx-4" />
         <BsInstagram className="mx-4" />
